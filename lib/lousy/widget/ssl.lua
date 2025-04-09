@@ -19,12 +19,12 @@ local widgets = {
         local trusted = w.view:ssl_trusted()
         if trusted == true then
             ssl.fg = theme.trust_fg
-            ssl.text = "(trust)"
+            ssl.text = theme.trust_text or "(trust)"
             ssl:show()
         elseif string.sub(w.view.uri or "", 1, 4) == "http" then
             -- Display (notrust) on http/https URLs
             ssl.fg = theme.notrust_fg
-            ssl.text = "(notrust)"
+            ssl.text = theme.notrust_text or "(notrust)"
             ssl:show()
         else
             ssl:hide()

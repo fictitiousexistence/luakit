@@ -76,6 +76,10 @@ theme.private_tab_bg    = "#22254a"
 theme.trust_fg          = "#0F0"
 theme.notrust_fg        = "#F00"
 
+-- Trusted/untrusted ssl Text
+theme.trust_text        = "(trust)"
+theme.notrust_text      = "(notrust)"
+
 -- Follow mode hints
 theme.hint_font = "10px monospace, courier, sans-serif"
 theme.hint_fg = "#fff"
