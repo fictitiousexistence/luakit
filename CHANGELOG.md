@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- certificates_chrome allows the management of saved SSL certificate exceptions (allowed_certificates.db)
+
 ## [2.4.0]
 
 ### Added
