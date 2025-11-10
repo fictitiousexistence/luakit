@@ -1,5 +1,10 @@
 # Changelog
 
+##[Unreleased]
+
+### Added
+- `tablist.fullscreen_visible` setting to allow the tablist to be visible in fullscreen
+
 ## [2.4.0]
 
 ### Added
